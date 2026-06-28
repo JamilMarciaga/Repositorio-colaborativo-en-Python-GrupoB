@@ -24,3 +24,10 @@ def despedir():
     """Se despide del usuario"""
     print("Gracias por usar el generador de cuentos. Hasta luego!")
 # Fin del archivo
+# ============================================
+# FUNCION AGREGADA POR JAMIL PARA EL PR
+# ============================================
+
+def cuento_especial():
+    """Devuelve un cuento especial para Gilberto"""
+    return "Este es un cuento especial para ti, Gilberto. Espero que te guste!"
