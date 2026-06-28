@@ -23,3 +23,4 @@ def saludar():
 def despedir():
     """Se despide del usuario"""
     print("Gracias por usar el generador de cuentos. Hasta luego!")
+# Fin del archivo
