@@ -8,3 +8,18 @@ def imprimir_cuento():
 
 if __name__ == "__main__":
     imprimir_cuento()
+# ============================================
+# FUNCIONES AGREGADAS POR JAMIL
+# ============================================
+
+def cuento_corto():
+    """Devuelve un cuento corto"""
+    return "Habia una vez un gato que vivia en una casa."
+
+def saludar():
+    """Saluda al usuario"""
+    print("Hola, bienvenido al generador de cuentos!")
+
+def despedir():
+    """Se despide del usuario"""
+    print("Gracias por usar el generador de cuentos. Hasta luego!")
