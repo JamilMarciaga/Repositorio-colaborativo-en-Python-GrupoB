@@ -110,6 +110,18 @@ def minimo(lista):
     return min(lista)
 
 # ============================================
+# FUNCIONES ADICIONALES Gilberto Cano
+# ============================================
+
+def modulo(a, b):
+    """Calcula el residuo de la división entre dos números"""
+    if b == 0:
+        raise ValueError("No se puede dividir entre cero")
+    return a % b
+
+
+
+# ============================================
 # PRUEBA DEL MODULO
 # ============================================
 
@@ -126,4 +138,6 @@ if __name__ == "__main__":
     print("Fibonacci(7) =", fibonacci(7))
     print("Maximo [1,5,3,9,2] =", maximo([1, 5, 3, 9, 2]))
     print("Minimo [1,5,3,9,2] =", minimo([1, 5, 3, 9, 2]))
+    print("10 % 3 =", modulo(10, 3))
+
     print("Todo funciona correctamente")
