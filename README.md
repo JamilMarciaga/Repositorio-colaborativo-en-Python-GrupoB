@@ -7,9 +7,12 @@
 | 1 | Jamil Marciaga | Miembro 1 | Operaciones Matemáticas |
 | 2 | Gilberto Cano | Miembro 2 | Cuentos |
 | 3 | Alexis Lopez | Miembro 3 | Utilidades |
+| 4 | Esequiel González | Miembro 4 | Documentación (README) |
 
 ## Descripción
-Repositorio colaborativo para un proyecto en Python con tres módulos.
+Repositorio colaborativo desarrollado en Python utilizando Git y GitHub para practicar el trabajo en equipo mediante el uso de ramas, commits, pull requests y revisiones de código.
+
+Cada integrante del grupo participa en el desarrollo de un módulo específico y colabora en la mejora del código de sus compañeros siguiendo buenas prácticas de control de versiones.
 
 ## Estructura
 Repositorio-colaborativo-en-Python-GrupoB/
