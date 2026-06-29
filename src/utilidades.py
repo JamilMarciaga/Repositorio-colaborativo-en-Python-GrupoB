@@ -148,3 +148,8 @@ def generar_codigo(longitud: int = 8) -> str:
         raise ValueError("longitud debe ser al menos 4")
 
     return "".join(secrets.choice(_CARACTERES_CODIGO) for _ in range(longitud))
+def convertir_a_titulo(texto: str) -> str:
+    """Convierte un texto a formato título."""
+
+    _validar_texto(texto, "texto")
+    return limpiar_texto(texto).title()
