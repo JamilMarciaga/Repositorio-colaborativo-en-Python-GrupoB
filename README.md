@@ -31,3 +31,50 @@ Repositorio-colaborativo-en-Python-GrupoB/
 ├── README.md
 ├── .gitignore
 └── requirements.txt
+
+## Módulo de Utilidades
+
+**Responsable: Alexis López**
+
+El archivo `src/utilidades.py` reúne funciones generales para procesar texto,
+validar datos, convertir fechas y generar códigos. Está implementado únicamente
+con la librería estándar de Python.
+
+### Funciones
+
+- `limpiar_texto`: elimina espacios innecesarios.
+- `contar_palabras`: cuenta las palabras de un texto limpio.
+- `es_palindromo`: comprueba palíndromos ignorando espacios, tildes, mayúsculas y puntuación.
+- `validar_email`: realiza una validación básica del formato de un correo.
+- `formatear_fecha`: convierte una fecha de un formato textual a otro.
+- `generar_codigo`: genera un código aleatorio con letras mayúsculas y números.
+
+### Ejemplos de uso
+
+```python
+from src.utilidades import (
+    contar_palabras,
+    es_palindromo,
+    formatear_fecha,
+    generar_codigo,
+    limpiar_texto,
+    validar_email,
+)
+
+print(limpiar_texto("  Hola    mundo  "))       # Hola mundo
+print(contar_palabras("Python es divertido"))    # 3
+print(es_palindromo("Anita lava la tina"))       # True
+print(validar_email("usuario@dominio.com"))       # True
+print(formatear_fecha("2026-06-29"))              # 29/06/2026
+print(generar_codigo(8))                           # Ejemplo: 7A2PX9QF
+```
+
+### Ejecutar las pruebas
+
+Desde la raíz del repositorio, instala `pytest` si todavía no está disponible y
+ejecuta la suite:
+
+```bash
+python -m pip install pytest
+python -m pytest
+```
