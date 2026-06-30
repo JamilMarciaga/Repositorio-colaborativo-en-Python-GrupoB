@@ -7,10 +7,21 @@
 | 1 | Jamil Marciaga | Miembro 1 | Operaciones Matemáticas |
 | 2 | Gilberto Cano | Miembro 2 | Cuentos |
 | 3 | Alexis Lopez | Miembro 3 | Utilidades |
+| 4 | Esequiel Gonzalez | Miembro 4 | README |
 
 ## Descripción
-Repositorio colaborativo para un proyecto en Python con tres módulos.
+El presente repositorio colaborativo tiene como objetivo principal desarrollar un proyecto en Python que integre tres módulos fundamentales, cada uno a cargo de un miembro del equipo, con la participación de un cuarto integrante para la ampliación de funcionalidades. Este proyecto busca demostrar las capacidades de trabajo en equipo, la implementación de buenas prácticas de programación y el uso eficiente de herramientas de control de versiones como Git y GitHub.
 
+El proyecto está estructurado para abordar diferentes áreas de la programación en Python, desde operaciones matemáticas básicas hasta el procesamiento de texto y la generación de utilidades prácticas. Cada módulo ha sido diseñado para ser independiente pero complementario, permitiendo que los diferentes equipos trabajen de manera paralela sin interferencias, mientras mantienen una integración coherente en el proyecto final.
+
+Objetivos del Proyecto
+Fomentar el trabajo colaborativo: Desarrollar habilidades de programación en equipo utilizando Git y GitHub como plataforma principal de colaboración.
+
+Implementar buenas prácticas: Aplicar principios de programación limpia, documentación adecuada y pruebas unitarias exhaustivas.
+
+Crear un proyecto modular: Desarrollar un sistema con módulos independientes que puedan ser reutilizados en futuros proyectos.
+
+Demostrar competencias técnicas: Mostrar dominio de Python, manejo de librerías estándar y resolución de problemas computacionales.
 ## Estructura
 Repositorio-colaborativo-en-Python-GrupoB/
 │
